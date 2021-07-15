@@ -39,6 +39,3 @@ def roll_the_dice(dice_code):
 
 
 print(roll_the_dice('2D12'))
-
-
-sum([randint(1, dice_face) for _ in range(multiply)])
